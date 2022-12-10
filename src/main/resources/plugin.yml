@@ -1,0 +1,169 @@
+name: Pandonia-Core
+version: 1.0
+author: TheMachuPichu
+main: fr.pandonia.core.plugin.CorePlugin
+load: STARTUP
+commands:
+  tp:
+    permission: pandonia.mod
+    description: "Téléporter un joueur vers un autre joueur"
+
+  opme:
+    permission: pandonia.mod
+    description: "Permet à un admin de se rendre op sur un serveur"
+
+  fly:
+    permission: pandonia.mod
+    description: "Active ou désactive le fly"
+
+  gamemode:
+    permission: pandonia.mod
+    aliases: [gm]
+    description: "Permet de changer de gamemode"
+
+  tps:
+    permission: pandonia.player
+    aliases: [lag]
+    description: "Voir les TPS du serveur ainsi que votre ping"
+
+  ss:
+    permission: pandonia.mod
+    description: "Menu des sanctions"
+
+  api:
+    permission: pandonia.admin
+    description: "Commande concernant l'API"
+
+  f:
+    permission: pandonia.player
+    aliases: [friends, friend]
+    description: "Permet de gérer les amis"
+
+  pl:
+    permission: pandonia.admin
+    aliases:
+      - plugins
+      - plugin
+
+  admin:
+    permission: pandonia.admin
+    description: "Gestion hosts/saphirs/lootboxes/boosts"
+
+  annonce:
+    permission: pandonia.admin
+    description: "Annonce d'un message sur tout le network"
+
+  coffiot:
+    permission: pandonia.admin
+    description: "Gestion des coffiots"
+
+  end:
+    permission: pandonia.admin
+    description: "Fermeture d'un ou de tous les proxy"
+
+  maintenance:
+    permission: pandonia.admin
+    description: "Gestion de la maintenance"
+
+  nlist:
+    permission: pandonia.admin
+    description: "Liste de tous les joueurs connectés au network"
+
+  plist:
+    permission: pandonia.admin
+    description: "Liste de tous les joueurs connectés au proxy actuel"
+
+  rank:
+    permission: pandonia.admin
+    description: "Gestion des ranks"
+
+  server:
+    permission: pandonia.admin
+    description: "Gestion des différents serveurs"
+
+  slots:
+    permission: pandonia.admin
+    description: "Gestion des slots du network"
+
+  stop:
+    permission: pandonia.admin
+    description: "Arrêt du serveur actuel"
+
+  stp:
+    permission: pandonia.mod
+    description: "Permet de se téléporter au serveur du joueur ciblé"
+
+  boutique:
+    permission: pandonia.player
+    description: "Affiche la boutique"
+
+  discord:
+    permission: pandonia.player
+    description: "Affiche le Discord"
+
+  helpop:
+    permission: pandonia.player
+    description: "Demander de l'aide à un Modérateur"
+
+  hub:
+    permission: pandonia.player
+    description: "Se téléporter à un hub"
+
+  join:
+    permission: pandonia.player
+    description: "Rejoindre une file d'attente"
+  help:
+    permission: pandonia.player
+  msg:
+    permission: pandonia.player
+    aliases: [tell]
+    description: "Envoyer un message à un autre joueur connecté"
+  send:
+    permission: pandonia.mod
+    description: "Permet d'envoyer un ou plusieurs joueurs sur un serveur"
+  staff:
+    permission: pandonia.staff
+    description: "Chat du staff"
+    aliases:
+      - sc
+  stafflist:
+    permission: pandonia.staff
+    description: "Voir la liste des membres du staff connectés"
+    aliases:
+      - sl
+  report:
+    permission: pandonia.player
+    description: "Report un joueur"
+  ban:
+    permission: pandonia.mod
+    description: "Ban un joueur"
+  blacklist:
+    permission: pandonia.admin
+    description: "Gestion de la blacklist"
+  kick:
+    permission: pandonia.mod
+    description: "Kick un joueur"
+  mute:
+    permission: pandonia.mod
+    description: "Mute un joueur"
+  sanctions:
+    permission: pandonia.mod
+    description: "Voir les sanctions d'un joueur"
+  unban:
+    permission: pandonia.mod
+    description: "Unban un joueur"
+  unmute:
+    permission: pandonia.mod
+    description: "Unmute un joueur"
+  quit:
+    permission: pandonia.player
+    description: "Quitter la file d'attente."
+  nick:
+    permission: pandonia.admin
+    description: "Permet de modifier son pseudo"
+  speed:
+    permission: pandonia.mod
+    description: "Permet de changer la speed"
+  vanish:
+    permission: pandonia.mod
+    description: "Activer ou désactiver le mode vanish"
